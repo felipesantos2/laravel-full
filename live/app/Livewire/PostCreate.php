@@ -2,23 +2,23 @@
 
 namespace App\Livewire;
 
+use App\Models\Post;
 use Livewire\Attributes\Validate;
 use Livewire\Component;
 
 class PostCreate extends Component
 {
 
-    #[Validate('required')]
+    #[Validate('required|min:3')]
     public string $title = "";
 
-    #[Validate('required')]
+    #[Validate('required|min:3')]
     public string $content = "";
 
     public function create()
     {
         $this->validate();
 
-        dd($this->title);
     }
 
     public function render()
