@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Contracts\View\View;
+use Illuminate\View\View;
 
 class PostController extends Controller
 {
@@ -11,5 +11,10 @@ class PostController extends Controller
     public function create(): View
     {
         return view('post-create');
+    }
+
+    public function edit(): View
+    {
+        return view('post-edit');
     }
 }

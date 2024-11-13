@@ -1,3 +1,6 @@
 <div>
-    {{-- The whole world belongs to you. --}}
+    <div>
+        <input type="text" name="" id="">
+        <input type="text" name="" id="">
+    </div>
 </div>
