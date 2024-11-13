@@ -4,11 +4,15 @@
 
 @section('content')
 
-<h1>
-    Post Create
-</h1>
+<div class="container">
 
-<livewire:post-create />
+    <h1 class="p-2">
+        Post Create
+    </h1>
+
+    <livewire:post-create />
+
+</div>
 
 @endSection
 
