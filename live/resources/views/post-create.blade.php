@@ -4,7 +4,7 @@
 
 @section('content')
 
-<div class="container">
+<div class="container is-max-desktop py-6">
 
     <h1 class="p-2">
         Post Create
